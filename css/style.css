@@ -1,17 +1,28 @@
 *{
-
+	padding: 0; /* par default, pour tout les elements pas de margin ni de padding */
+	margin: 0;
 }
+
 html{
 
 }
 body{
 	margin: 0px;
+	background-color: #dcdcdc;
 }
-h1{
-	color: blue;
+h1{ /*sert pour le titre d'un article*/
+	font-size: 3em;
+	text-align: center; 
 }
+
 p{
 
+}
+
+main {
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: white;
 }
 
 nav {
@@ -24,22 +35,32 @@ nav {
 	font-family: "Open Sans", sans-serif;
 }
 
+hr {
+	color: black;
+	width: 80%;
+	margin-left: 10%;
+}
 
 /* custom class */ 
-.nav_left{ 
+.nav_left { 
 	display:flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
-	width: 30%;
+	font-size: 1.5em;
+	width: 40%;
 }
 
-.nav_right{
+.nav_right {
 	display:flex;
 	flex-direction: row-reverse;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	width: 25%;
+}
+.content {
+	margin: 7%;
+	font-family: "Open Sans", sans-serif;
 }
 
