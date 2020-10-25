@@ -1,13 +1,12 @@
 *{
-	padding: 0; /* par default, pour tout les elements pas de margin ni de padding */
-	margin: 0;
+	padding: 0px; /* par default, pour tout les elements pas de margin ni de padding */
+	margin: 0px;
 }
 
 html{
 
 }
 body{
-	margin: 0px;
 	background-color: #dcdcdc;
 }
 h1{ /*sert pour le titre d'un article*/
@@ -28,11 +27,17 @@ main {
 nav {
 	display:flex;
 	width: 100%;
-	justify-content: space-between;
-	align-items: center;
+	/*justify-content: space-between;*/
+	/*align-items: center;*/
 	background-color: rgb(85,85,85);
 	color: white; /* couleur du texte */
 	font-family: "Open Sans", sans-serif;
+
+	/*flex-wrap: nowrap;*/
+
+	background-color: rgb(59, 59, 59);
+
+	height: 100px;
 }
 
 hr {
@@ -41,26 +46,71 @@ hr {
 	margin-left: 10%;
 }
 
-/* custom class */ 
-.nav_left { 
-	display:flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	font-size: 1.5em;
-	width: 40%;
+/* custom class ||||||||| */ 
+
+/* ---------- NAV BAR (Léo) ---------- */
+
+/* logo du site */
+.logo{
+	height: 100%;
+	/*width: auto;*/
+}
+.img {
+	height: 100%;
+}
+.img:hover {
+	/*filter: invert(100%);*/
+	filter: brightness(30%);
 }
 
-.nav_right {
-	display:flex;
-	flex-direction: row-reverse;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	width: 25%;
+/* title du site */
+.pageTitle{
+	height: 100%;
+	width: 100%;
+
+	padding-left: 20px;
+
+  	display: flex;
+	justify-content: left; /* align horizontal */
+	align-items: center; /* align vertical */
 }
+.pageTitle-text{
+  	/*
+  	display: inline-block;
+  	margin: auto;
+  	font-size: 20%;
+  	*/
+}
+
+/* menu des pages sur la gauche */ 
+.nav_right {
+	/*justify-content: space-around;*/
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+}
+.nav_right a {
+    height: 100%;
+	width: 100%;
+
+    text-decoration: none;
+    color: white;
+	font-size: 200%;
+
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+
+}
+.nav_right a:hover{
+	background-color: rgb(20, 20, 20);
+}
+
+/* ---------- contenu de la page (Dewi & Nathan) ---------- */ 
 .content {
 	margin: 7%;
 	font-family: "Open Sans", sans-serif;
 }
 
+/* footer (Pierre) */
