@@ -40,6 +40,14 @@ nav {
 	height: 100px;
 }
 
+footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(85,85,85);
+	color: white;
+	font-family: "Open Sans", sans-serif;
+}
+
 hr {
 	color: black;
 	width: 80%;
@@ -80,7 +88,11 @@ hr {
   	margin: auto;
   	font-size: 20%;
   	*/
+td {
+	width: 140px;
+	padding: 1%;
 }
+
 
 /* menu des pages sur la gauche */ 
 .nav_right {
@@ -114,3 +126,22 @@ hr {
 }
 
 /* footer (Pierre) */
+
+.footer_center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+	padding-left: 35%; 
+}
+
+.footer_separator {
+	margin-top: 30px;
+}
+
+.footer_logo {
+	width: 10%;
+	height: 10%;
+	padding-top: 7%;
+	padding-right: 3%;
+}
