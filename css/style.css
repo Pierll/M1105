@@ -53,6 +53,10 @@ hr {
 	width: 80%;
 	margin-left: 10%;
 }
+td {
+	width: 140px;
+	padding: 1%;
+}
 
 /* custom class ||||||||| */ 
 
@@ -88,11 +92,7 @@ hr {
   	margin: auto;
   	font-size: 20%;
   	*/
-td {
-	width: 140px;
-	padding: 1%;
 }
-
 
 /* menu des pages sur la gauche */ 
 .nav_right {
@@ -125,7 +125,7 @@ td {
 	font-family: "Open Sans", sans-serif;
 }
 
-/* footer (Pierre) */
+/* ---------- footer (Pierre) ---------- */
 
 .footer_center {
 	display: flex;
