@@ -58,6 +58,11 @@ td {
 	padding: 1%;
 }
 
+video {
+	width: 100%;
+	height: 100%;
+}
+
 /* custom class ||||||||| */ 
 
 /* ---------- NAV BAR (Léo) ---------- */
@@ -126,6 +131,11 @@ td {
 	font-family: "Open Sans", sans-serif;
 }
 
+.content_img {
+	height: auto;
+	width: 100%;
+}
+
 /* ---------- footer (Pierre) ---------- */
 
 .footer_center {
@@ -145,8 +155,4 @@ td {
 	height: 10%;
 	padding-top: 7%;
 	padding-right: 3%;
-}
-video {
-	width: 500px;
-	height: 300px;
 }
