@@ -122,6 +122,7 @@ td {
 /* ---------- contenu de la page (Dewi & Nathan) ---------- */ 
 .content {
 	margin: 7%;
+	margin-bottom: 0px;
 	font-family: "Open Sans", sans-serif;
 }
 
