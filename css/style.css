@@ -135,6 +135,14 @@ video {
 	height: auto;
 	width: 100%;
 }
+.sources {
+	color: grey;
+	text-decoration: none;
+}
+.sources:hover {
+	color: grey;
+	text-decoration: underline;
+}
 
 /* ---------- footer (Pierre) ---------- */
 
