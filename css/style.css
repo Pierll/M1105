@@ -63,8 +63,6 @@ video {
 	height: 100%;
 }
 
-/* custom class ||||||||| */ 
-
 /* ---------- NAV BAR (Léo) ---------- */
 
 /* logo du site */
@@ -106,6 +104,8 @@ video {
 	height: 100%;
 
 	display: flex;
+
+	text-align: center;
 }
 .nav_right a {
     height: 100%;
@@ -123,6 +123,9 @@ video {
 .nav_right a:hover{
 	background-color: rgb(20, 20, 20);
 }
+.nav_right a.selected{
+	background-color: rgb(100, 100, 100);
+}
 
 /* ---------- contenu de la page (Dewi & Nathan) ---------- */ 
 .content {
@@ -134,6 +137,14 @@ video {
 .content_img {
 	height: auto;
 	width: 100%;
+}
+.sources {
+	color: grey;
+	text-decoration: none;
+}
+.sources:hover {
+	color: grey;
+	text-decoration: underline;
 }
 
 /* ---------- footer (Pierre) ---------- */
