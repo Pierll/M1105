@@ -64,6 +64,10 @@ video {
 a{
 
 }
+
+.separator {
+	border-top: 1px solid #000;
+}
 .sommaire {
 	color: black;
 
