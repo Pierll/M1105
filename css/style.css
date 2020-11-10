@@ -172,6 +172,17 @@ a{
   height: 100%;
 }
 
+.tableHistory {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: auto;
+}
+
+.tableHistory td, .tableHistory th {
+  border: 3px solid #ddd;
+  padding: 8px;
+}
+
 /* ---------- footer (Pierre) ---------- */
 
 .footer_center {
