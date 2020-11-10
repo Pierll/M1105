@@ -27,13 +27,9 @@ main {
 nav {
 	display:flex;
 	width: 100%;
-	/*justify-content: space-between;*/
-	/*align-items: center;*/
 	
-	color: white; /* couleur du texte */
+	color: white; 
 	font-family: "Open Sans", sans-serif;
-
-	/*flex-wrap: nowrap;*/
 
 	background-color: rgb(59, 59, 59);
 
@@ -77,7 +73,6 @@ a{
 	height: 100%;
 }
 .img:hover {
-	/*filter: invert(100%);*/
 	filter: brightness(30%);
 }
 
