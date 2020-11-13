@@ -175,7 +175,7 @@ a{
   border: 3px solid #ddd;
   padding: 8px;
 }
-.col-small{
+.col-small{ /* définie la largeur des colonnes du tableau*/
 	width: 10%;
 }
 .col-large{
