@@ -1,5 +1,5 @@
 *{
-	padding: 0px; /* par default, pour tout les elements pas de margin ni de padding */
+	padding: 0px; /* pas de margin ni de padding pour tous les éléments de la page */
 	margin: 0px;
 }
 
@@ -9,22 +9,19 @@ html{
 body{
 	background-color: #dcdcdc;
 }
-h1{ /*sert pour le titre d'un article*/
+h1{ 
 	font-size: 3em;
 	text-align: center; 
 }
-
 p{
 
 }
-
 main {
 	margin-left: 20%;
 	margin-right: 20%;
 	background-color: white;
 }
-
-nav {
+nav { /* est utilisé pour la barre de naviguation en haut du site */ 
 	display:flex;
 	width: 100%;
 	
@@ -35,7 +32,6 @@ nav {
 
 	height: 100px;
 }
-
 footer {
 	display: flex;
 	justify-content: space-between;
@@ -43,7 +39,6 @@ footer {
 	color: white;
 	font-family: "Open Sans", sans-serif;
 }
-
 hr {
 	color: black;
 	width: 80%;
@@ -53,7 +48,6 @@ td {
 	width: 140px;
 	padding: 1%;
 }
-
 video {
 
 }
@@ -76,7 +70,7 @@ a{
 	filter: brightness(30%);
 }
 
-/* title du site */
+/* Partie "Titre" de la barre de naviguation */
 .pageTitle{
 	height: 100%;
 	width: 100%;
@@ -95,7 +89,7 @@ a{
   	*/
 }
 
-/* menu des pages sur la gauche */ 
+/* pages du menu sur la droite */ 
 .nav_right {
 	/*justify-content: space-around;*/
 	width: 100%;
@@ -121,12 +115,12 @@ a{
 .nav_right a:hover{
 	background-color: rgb(20, 20, 20);
 }
-.nav_right a.selected{
+.nav_right a.selected{ /* cela correspond à la page sur lequel se trouve l'utilisateur */
 	background-color: rgb(100, 100, 100);
 }
 
 /* ---------- contenu de la page (Dewi & Nathan) ---------- */ 
-.content {
+.content { /* partie où se trouve les articles */ 
 	margin: 7%;
 	margin-bottom: 0px;
 	font-family: "Open Sans", sans-serif;
@@ -141,13 +135,13 @@ a{
 	color: grey;
 	text-decoration: none;
 }
-.sources-simple {
-	color: grey;
-	text-decoration: none;
-}
 .sources:hover {
 	color: grey;
 	text-decoration: underline;
+}
+.sources-simple { /* variante de la classe .sources qui est utilisé pour */
+	color: grey;
+	text-decoration: none;
 }
 .sommaire {
 	color: black;
@@ -159,7 +153,7 @@ a{
 	font-weight: bold;
 	/*text-decoration: underline;*/
 }
-.videoWrapper {
+.videoWrapper { /* permet de rendre responsive la vidéo youtube */
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
@@ -172,12 +166,11 @@ a{
   height: 100%;
 }
 
-.tableHistory {
+.tableHistory { /* cela correspond au tableau avec les dates de l'onglet "Avancées" */ 
   border-collapse: collapse;
   width: 100%;
   table-layout: auto;
 }
-
 .tableHistory td, .tableHistory th {
   border: 3px solid #ddd;
   padding: 8px;
@@ -192,11 +185,6 @@ a{
 	padding: 50px;
 	padding-left: 35%; 
 }
-
-.footer_separator {
-	margin-top: 30px;
-}
-
 .footer_logo {
 	width: 10%;
 	height: 10%;
@@ -206,7 +194,7 @@ a{
 .footer_lightText{
 	color: rgb(200,200,200);
 }
-.separator {
+.separator { /* utilisé sur les balises <hr> qui sont utilisées pour séparer visuelement les élements */ 
 	height: 1px;
 	border: 0;
 	border-radius: 20px;
