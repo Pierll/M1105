@@ -175,6 +175,12 @@ a{
   border: 3px solid #ddd;
   padding: 8px;
 }
+.col-small{
+	width: 10%;
+}
+.col-large{
+	width: 90%;
+}
 
 /* ---------- footer (Pierre) ---------- */
 
